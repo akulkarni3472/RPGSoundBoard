@@ -11,12 +11,18 @@ import javafx.scene.Scene;
 import javafx.stage.Stage;
 
 public class RPGSoundboard extends Application {
+    private Stage window;
+    private Scene appScene;
+    private AppScreen appScreen;
+    //private
 
     @Override
     public void start(Stage primaryStage) throws Exception{
-        Parent root = FXMLLoader.load(getClass().getResource("sample.fxml"));
-        primaryStage.setTitle("Hello World");
-        primaryStage.setScene(new Scene(root, 300, 275));
+        window = primaryStage;
+        appScreen = new AppScreen();
+        appScene = new Scene (appScreen, 600, 700);
+        window.setTitle("RPG Soundboard");
+        window.setScene(appScene);
         primaryStage.show();
     }
 
