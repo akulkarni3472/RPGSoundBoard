@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ButtonBar?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Text?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="700.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1">
+   <left>
+      <VBox prefHeight="200.0" prefWidth="100.0" BorderPane.alignment="CENTER">
+         <children>
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Magic" textAlignment="CENTER" wrappingWidth="99.9306640625" />
+            <Button mnemonicParsing="false" prefWidth="75.0" text="Button" translateX="12.0" />
+            <Button layoutX="10.0" layoutY="26.0" mnemonicParsing="false" prefWidth="75.0" text="Button" translateX="12.0" />
+            <Button layoutX="10.0" layoutY="54.0" mnemonicParsing="false" prefWidth="75.0" text="Button" translateX="12.0" />
+         </children>
+      </VBox>
+   </left>
+   <top>
+      <ButtonBar layoutX="43.0" layoutY="10.0" prefHeight="40.0" prefWidth="200.0" translateX="-184.0" BorderPane.alignment="CENTER">
+        <buttons>
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Misc" />
+            <Button mnemonicParsing="false" text="Button" />
+          <Button mnemonicParsing="false" text="Button" />
+            <Button mnemonicParsing="false" text="Button" />
+        </buttons>
+      </ButtonBar>
+   </top>
+   <center>
+      <VBox mouseTransparent="true" prefHeight="320.0" prefWidth="67.0" BorderPane.alignment="CENTER">
+         <children>
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Fighting" textAlignment="CENTER" translateY="10.0" wrappingWidth="400.21875" />
+            <GridPane prefHeight="90.0" prefWidth="379.0" translateY="20.0">
+              <columnConstraints>
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="10.0" />
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="10.0" />
+                  <ColumnConstraints minWidth="10.0" prefWidth="127.0" />
+              </columnConstraints>
+              <rowConstraints>
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                <RowConstraints minHeight="10.0" prefHeight="30.0" />
+              </rowConstraints>
+               <children>
+                  <Button mnemonicParsing="false" text="Button" translateX="36.0" />
+                  <Button mnemonicParsing="false" text="Button" translateX="36.0" GridPane.rowIndex="2" />
+                  <Button mnemonicParsing="false" text="Button" translateX="36.0" GridPane.rowIndex="1" />
+                  <Button mnemonicParsing="false" text="Button" translateX="37.0" GridPane.columnIndex="1" />
+                  <Button mnemonicParsing="false" text="Button" translateX="37.0" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+                  <Button mnemonicParsing="false" text="Button" translateX="37.0" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+                   <Button mnemonicParsing="false" text="Button" translateX="32.0" GridPane.columnIndex="2" />
+                   <Button mnemonicParsing="false" text="Button" translateX="32.0" GridPane.columnIndex="2" GridPane.rowIndex="1" />
+                   <Button mnemonicParsing="false" text="Button" translateX="32.0" GridPane.columnIndex="2" GridPane.rowIndex="2" />
+               </children>
+            </GridPane>
+            <Text layoutX="10.0" layoutY="23.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Monsters" textAlignment="CENTER" translateY="30.0" wrappingWidth="400.21875" />
+            <GridPane layoutX="10.0" layoutY="26.0" prefHeight="90.0" prefWidth="379.0" translateY="40.0">
+               <columnConstraints>
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="10.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="10.0" />
+                  <ColumnConstraints minWidth="10.0" prefWidth="127.0" />
+               </columnConstraints>
+               <rowConstraints>
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" />
+               </rowConstraints>
+               <children>
+                  <Button mnemonicParsing="false" text="Button" translateX="36.0" />
+                  <Button mnemonicParsing="false" text="Button" translateX="36.0" GridPane.rowIndex="2" />
+                  <Button mnemonicParsing="false" text="Button" translateX="36.0" GridPane.rowIndex="1" />
+                  <Button mnemonicParsing="false" text="Button" translateX="37.0" GridPane.columnIndex="1" />
+                  <Button mnemonicParsing="false" text="Button" translateX="37.0" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+                  <Button mnemonicParsing="false" text="Button" translateX="37.0" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+                  <Button mnemonicParsing="false" text="Button" translateX="32.0" GridPane.columnIndex="2" />
+                  <Button mnemonicParsing="false" text="Button" translateX="32.0" GridPane.columnIndex="2" GridPane.rowIndex="1" />
+                  <Button mnemonicParsing="false" text="Button" translateX="32.0" GridPane.columnIndex="2" GridPane.rowIndex="2" />
+               </children>
+            </GridPane>
+         </children>
+      </VBox>
+   </center>
+   <right>
+      <VBox prefHeight="200.0" prefWidth="100.0" BorderPane.alignment="CENTER">
+         <children>
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="NPC" textAlignment="CENTER" wrappingWidth="99.21240234375" />
+            <Button mnemonicParsing="false" text="Button" translateX="22.0" />
+            <Button mnemonicParsing="false" text="Button" translateX="22.0" />
+            <Button mnemonicParsing="false" text="Button" translateX="22.0" />
+         </children>
+      </VBox>
+   </right>
+   <bottom>
+      <ButtonBar prefHeight="40.0" prefWidth="200.0" translateX="-184.0" BorderPane.alignment="CENTER">
+        <buttons>
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Music" />
+            <Button mnemonicParsing="false" text="Button" />
+          <Button mnemonicParsing="false" text="Button" />
+            <Button mnemonicParsing="false" text="Button" />
+        </buttons>
+      </ButtonBar>
+   </bottom>
+</BorderPane>
