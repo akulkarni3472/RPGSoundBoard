@@ -18,7 +18,7 @@ public class RPGSoundboard extends Application {
     public void start(Stage primaryStage) throws Exception{
         window = primaryStage;
         appScreen = new AppScreen();
-        appScene = new Scene (appScreen, 600, 700);
+        appScene = new Scene (appScreen, 800, 600);
         window.setTitle("RPG Soundboard");
         window.setScene(appScene);
         primaryStage.show();
