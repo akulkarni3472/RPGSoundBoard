@@ -10,7 +10,6 @@ import java.nio.file.Paths;
  * Created by amrutKulkarni on 3/28/17.
  */
 public class AudioPlayer {
-    private AudioClip test;
 
     public AudioPlayer() {
 
